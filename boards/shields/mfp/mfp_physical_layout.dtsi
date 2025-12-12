@@ -1,4 +1,4 @@
-#include <layouts/physical_layouts.dtsi>
+#include <physical_layouts.dtsi>
 
 / {
     borland04_mfp_layout: borland04_mfp_layout {
