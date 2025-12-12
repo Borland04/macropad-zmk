@@ -1,0 +1,11 @@
+file_format: "1"
+id: mfp
+name: MFP
+type: shield
+url: http://localhost
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+  - encoder
+  - studio

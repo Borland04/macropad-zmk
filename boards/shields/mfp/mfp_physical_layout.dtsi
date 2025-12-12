@@ -1,0 +1,20 @@
+#include <layouts/physical_layouts.dtsi>
+
+/ {
+    borland04_mfp_layout: borland04_mfp_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "MFP";
+
+	keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            , <&key_physical_attrs 100 100    0  200       0     0     0>
+            , <&key_physical_attrs 100 100  100  200       0     0     0>
+            , <&key_physical_attrs 100 100  200  200       0     0     0>
+            , <&key_physical_attrs 100 100    0  300       0     0     0>
+            , <&key_physical_attrs 150 100  130  300       0     0     0>
+        ;
+    };
+};
